@@ -48,7 +48,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="39" selection-start="2544" selection-end="2544" vertical-scroll-proportion="1.5895196" vertical-offset="112" max-vertical-offset="1110">
+            <state line="56" column="39" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.41048035" vertical-offset="652" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -420,10 +420,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="30" width="1400" height="790" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -561,7 +561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="39" selection-start="2544" selection-end="2544" vertical-scroll-proportion="1.5895196" vertical-offset="112" max-vertical-offset="1110">
+        <state line="56" column="39" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.41048035" vertical-offset="652" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
