@@ -24,8 +24,8 @@ describe "Static pages" do
     end
 
 
-    it "should have the title 'Home'" do
-      visit '/static_pages/home'
+    it "should have the title 'Help'" do
+      visit '/static_pages/help'
       page.should have_title("Ruby on Rails Tutorial Sample App | Help")
     end
 
@@ -40,8 +40,8 @@ describe "Static pages" do
 
 
     it "should have the title 'Home'" do
-      visit '/static_pages/home'
-      page.should have_title("Ruby on Rails Tutorial Sample App | About")
+      visit '/static_pages/about'
+      page.should have_title("Ruby on Rails Tutorial Sample App | About Us")
     end
 
   end
