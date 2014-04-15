@@ -15,4 +15,5 @@
 /tmp
 workspace.xml
 .idea/workspace.xml
+/.idea/workspace.xml
 bundler_stubs/
