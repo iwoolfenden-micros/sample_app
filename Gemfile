@@ -5,9 +5,18 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
+group :development do
   gem 'sqlite3', '1.3.5'
+
+  gem 'guard-rspec'
+end
+
+
+group :test do
   gem 'rspec-rails', '>=2.9.0'
+  gem 'capybara'
+  gem 'rb-fsevent', :require => false
+  gem 'growl', '1.0.3'
 end
 
 
@@ -24,10 +33,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-
-group :test do
-  gem 'capybara', '>= 1.1.2'
-end
 
 
 group :production do
