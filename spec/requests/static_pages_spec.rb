@@ -1,49 +1,70 @@
 require 'spec_helper'
 
+
+
 describe "Static pages" do
+  let(:staticpagespath) {"/static_pages/"}
+  let(:objtitle) { "Ruby on Rails Tutorial Sample App | " }
+
   describe "Home page" do
     it "should have the h1 'Sample App'" do
-      visit '/static_pages/home'
-
+      visit "#{staticpagespath}home"
       page.should have_selector('h1',
                                 :text => 'Sample App')
     end
 
     it "should have the title 'Home'" do
-      visit '/static_pages/home'
-      page.should have_title("Ruby on Rails Tutorial Sample App | Home")
+      visit "#{staticpagespath}home"
+      page.should have_title("#{objtitle}Home")
     end
   end
 
 
   describe "Help page" do
+    let(:helpvar) { "Help" }
     it "should have the h1 'Help'" do
-      visit '/static_pages/help'
+      visit "#{staticpagespath}help"
       page.should have_selector('h1',
-                                :text => 'Help')
+                                :text => "#{helpvar}")
     end
 
 
     it "should have the title 'Help'" do
-      visit '/static_pages/help'
-      page.should have_title("Ruby on Rails Tutorial Sample App | Help")
+      visit "#{staticpagespath}help"
+      page.should have_title("#{objtitle}#{helpvar}")
     end
 
   end
 
   describe "About page" do
+    let(:aboutvar) { "About Us" }
     it "should have the h1 'About Us'" do
-      visit '/static_pages/about'
+      visit "#{staticpagespath}about"
       page.should have_selector('h1',
-                                :text => 'About Us')
+                                :text => "#{aboutvar}")
     end
 
 
     it "should have the title 'Home'" do
-      visit '/static_pages/about'
-      page.should have_title("Ruby on Rails Tutorial Sample App | About Us")
+      visit "#{staticpagespath}about"
+      page.should have_title("#{objtitle}#{aboutvar}")
     end
 
   end
 
+  describe "Contact page" do
+    let(:contactvar) { "Contact"}
+    it "should have the h1 'Contact'" do
+      visit "#{staticpagespath}contact"
+      page.should have_selector('h1',
+                                :text => "#{contactvar}")
+    end
+
+
+    it "should have the title 'Contact'" do
+      visit "#{staticpagespath}contact"
+      page.should have_title("#{objtitle}#{contactvar}")
+    end
+
+  end
 end
