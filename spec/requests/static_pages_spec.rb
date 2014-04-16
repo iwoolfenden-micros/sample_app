@@ -15,7 +15,7 @@ describe "Static pages" do
 
     it "should have the title 'Home'" do
       visit "#{staticpagespath}home"
-      page.should have_title("#{objtitle}Home")
+      page.should have_title("Ruby on Rails Tutorial Sample App")
     end
   end
 
